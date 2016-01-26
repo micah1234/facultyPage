@@ -1,1 +1,143 @@
-hey now
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 550px}
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+
+  /* On small screens, set height to 'auto' for the grid */
+  @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }
+  </style>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $(".flip").click(function(){
+      $(".panel").hide();
+    });
+    </script>
+    <div class="col-sm-9">
+      <div class="well">
+      </head>
+      <body>
+
+        <nav class="navbar navbar-inverse visible-xs">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Dashboard</a></li>
+                <li><a href="#">Age</a></li>
+                <li><a href="#">Gender</a></li>
+                <li><a href="#">Geo</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container-fluid">
+          <div class="row content">
+            <div class="col-sm-3 sidenav hidden-xs">
+              <a class="item"> <img src="http://coil.seattleacademy.org/wp-content/uploads/2015/04/Logo_11.png"></a>
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#section1">Dashboard</a></li>
+                <li><a href="#section2">Age</a></li>
+                <li><a href="#section3">Gender</a></li>
+                <li><a href="#section3">Geo</a></li>
+              </ul><br>
+            </div>
+            <br>
+
+            <h4>Seattle Academy</h4>
+            <p>Micah Gonchar's Teachers</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="well">
+                <div class="collapse" id="dj">
+                  <p>David Johns</p>
+                </div>
+                <img data-toggle="collapse" data-target="#dj" src= "http://saasmath.seattleacademy.org/facultypics/Johns-David.jpg" width="250" height="300">
+                <button data-toggle="collapse" data-target="#e">David Johns</button>
+                <div id="dj" class="collapse">
+                  <p>(Mathematics; Coach), </p> B.A., University of California at San Diego; M.E., Seattle University. David came to Seattle Academy after several years as a math instructor at Seattle Country Day School, while also serving as their athletic director. Before that, he was a middle school computer teacher and specialist in La Jolla, California. David says, simply, “I adore teaching and coaching! I thoroughly enjoy creating enthusiastic, dynamic, and challenging lessons that engage students.”
+                </div> 
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <div class="collapse" id="david">
+                  <p>Lisa Feiertag</p>
+                </div>
+                <img data-toggle="collapse" data-target="#lf" src= "http://saasmath.seattleacademy.org/facultypics/Feiertag-Lisa.jpg" width="250" height="300">
+                <button data-toggle="collapse" data-target="#lf">Lisa Feiertag</button>
+                <div id="lf" class="collapse">
+                  <p>(History; Innovations), </p> B.A., University of Chicago; M.A., Western Washington University. Lisa has taught a variety of subjects including math, language arts, GED preparation, violin, and even horsemanship at several schools including Bellingham Technical College, Geneva Elementary, Pilsen School for the Arts (IL), and youth camps. In addition, her work history includes working as a paralegal for Nash Disability Law (IL); as a research intern for the YMCA of the USA; and as the coordinator for the University of Chicago’s annual blood drive. In her spare time, Lisa acts as a judge for the world’s largest scavenger hunt.
+
+
+                </div> 
+              </div>
+            </div>
+              <div class="row">
+                <div class="well">
+                   <div class="col-sm-3">
+                    <div class="collapse" id="mw">
+                      <h4><img src="http://saasmath.seattleacademy.org/facultypics/Wensnahan-Mark.jpg" width="250" height="300"</h4>
+                      <p>Mark Wensnahan</p> 
+                       <button data-toggle="collapse" data-target="#mw">Mark Wensnahan</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="well">
+                      <div class="collapse" id="ad">
+                      <h4><img src="http://saasmath.seattleacademy.org/facultypics/DeNonno-April.jpg" width="250" height="300"></h4>
+                      <p>April DeNonno</p> 
+                       <button data-toggle="collapse" data-target="#ad">April DeNono</button>
+                    </div>
+                  </div> <br>
+
+                </br> <div class="col-sm-3">
+                <div class="well">
+                  <div class="row">
+                    <div class="collapse" id="jg">
+                      <h4><img src="http://saasmath.seattleacademy.org/facultypics/Gifford-Jarad.jpg" width="250" height="300"></h4>
+                      <p>Jarad Gifford</p> 
+                       <button data-toggle="collapse" data-target="#jg">Jarad Gifford</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="well">
+                      <div class="row">
+                        <div class="collapse" id="rk">
+                          <h4><img src="https://s-media-cache-ak0.pinimg.com/236x/ac/7c/28/ac7c28ada0dd687c525e274540183a01.jpg" width="250" height="300"></h4>
+                          <p>Rebecca Klein</p> 
+                           <button data-toggle="collapse" data-target="#rk">Rebecca Klein</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </body>
+        </html>
